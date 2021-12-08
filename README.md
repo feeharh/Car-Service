@@ -1,7 +1,7 @@
 # Car-Service
 **A simple application with a REST API that can store and manage appointments for a car service center**
 
-# To Run the application:
+## To Run the application:
 
 ## 1. Build Docker Image
   
