@@ -2,7 +2,7 @@
 **A simple application with a REST API that can store and manage appointments for a car service center**
 
 ## Endpoints:
-- delete : Delete appointments from the database
+- /delete : Delete appointments from the database
 - /delete/{id} : Delete appointments by Id from the database
 - /addAppointment: Create a new appointment
 - /addAppointments: Create new appointments/list of appointments
