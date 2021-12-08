@@ -1,0 +1,19 @@
+version: "3.7"
+services:
+  api_service:
+    build: .
+    restart: always
+    ports:
+      - 8080:8080
+    depends_on:
+      - mysql_db
+  mysql_db:
+    image: "mysql:latest"
+    restart: always
+    ports:
+      - 3307:3307
+    environment:
+      MYSQL_DATABASE: carservice
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: root
