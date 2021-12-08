@@ -14,5 +14,12 @@
 > ## 3. Server Reference
   > You can download POSTMAN to test the REST API endpoints.
 
+ ## Technologies Used
+    - Language: Java
+    - Command line build systems (Maven)
+    - MySql
+    - Docker
+    - Unit testing framework (JUnit, Mokito)
+    - CI/CD Orchestration: (Jenkins)
 
 ***Thank You for reading me... System is ready to be used.***
