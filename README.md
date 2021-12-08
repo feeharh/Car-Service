@@ -3,7 +3,7 @@
 
 ## To Run the application:
 
-> ## 1. Build Docker Image
+## > 1. Build Docker Image
   
   > docker build --build-arg JAR_FILE=build/libs/\*.jar -t car-service .
 
