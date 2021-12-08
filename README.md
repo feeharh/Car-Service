@@ -16,10 +16,10 @@
 
  ## Technologies Used
     - Language: Java
-    - Command line build systems (Maven)
-    - MySql
+    - Command line build systems: (Maven)
+    - Database: MySql
     - Docker
-    - Unit testing framework (JUnit, Mokito)
+    - Unit testing framework: (JUnit, Mokito)
     - CI/CD Orchestration: (Jenkins)
 
 ***Thank You for reading me... System is ready to be used.***
