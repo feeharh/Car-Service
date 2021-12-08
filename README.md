@@ -2,13 +2,13 @@
 **A simple application with a REST API that can store and manage appointments for a car service center**
 
 ## Endpoints:
-/delete : Delete appointments from the database
-/delete/{id} : Delete appointments by Id from the database
-/addAppointment: Create a new appointment
-/addAppointments: Create new appointments/list of appointments
-/appointment/{id}: Retrieve a specific appointment from the database (by id).
-/appointment : Retrieve all appointments
-/appointment/{dateFrom}/{dateTo} : Retrieve all appointments that are scheduled between a date range and sorted by price.
+- delete : Delete appointments from the database
+- /delete/{id} : Delete appointments by Id from the database
+- /addAppointment: Create a new appointment
+- /addAppointments: Create new appointments/list of appointments
+- /appointment/{id}: Retrieve a specific appointment from the database (by id).
+- /appointment : Retrieve all appointments
+- /appointment/{dateFrom}/{dateTo} : Retrieve all appointments that are scheduled between a date range and sorted by price.
 ## To Run the application:
 
 > ### 1. Build Docker Image
